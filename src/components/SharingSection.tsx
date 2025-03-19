@@ -1,7 +1,6 @@
-
 import React from 'react';
 import Button from './Button';
-import { Globe, FileCode, Share2, ArrowRight } from 'lucide-react';
+import { Globe, FileCode, Share2, ArrowRight, Shield } from 'lucide-react';
 
 const SharingSection = () => {
   return (
@@ -167,3 +166,4 @@ const ShieldCheck = ({ className }: { className?: string }) => (
 );
 
 export default SharingSection;
+
